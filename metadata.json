@@ -1,0 +1,6 @@
+{
+  "name": "Linux Process Resource Monitoring System",
+  "description": "A clean and professional Linux process resource monitoring dashboard designed for college computer labs and Linux systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
