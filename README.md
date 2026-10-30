@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LPMS — Linux Process Management System
 
 ### Linux System Administration Portal
@@ -135,3 +136,8 @@ Open `http://localhost:3000` in your browser.
    Click **Terminate**, confirm the prompt. The process terminates and disappears from the process list.
 4. **Threshold Alerts**:
    Lower the CPU threshold to `10%` in Settings. Run a temporary CPU-intensive command. A real High CPU alert appears on the Dashboard and Alerts page.
+=======
+## Project Abstract
+
+[📄 Click here to view the OSSP Abstract](./OSSP_ABSTRACT.pdf)
+>>>>>>> 721b8f1078583cb498927e26dfbc97f4e61fc539
