@@ -55,7 +55,7 @@ import java.util.regex.Pattern;
  */
 public class ProcessAPI {
 
-    private static final int PORT = 8080;
+    private static final int PORT = Integer.parseInt(System.getenv().getOrDefault("PORT", "8080"));
 
     // Previous CPU tick counters for computing delta from /proc/stat
     private static volatile long prevIdleTicks = 0;
@@ -72,8 +72,7 @@ public class ProcessAPI {
             return ProcessHandle.current().pid();
         } catch (Throwable t) {
             return -1;
-        }
-    }
+        }    }
 
     public static void main(String[] args) {
         try {
