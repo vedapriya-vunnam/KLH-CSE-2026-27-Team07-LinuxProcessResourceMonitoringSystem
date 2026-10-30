@@ -1,11 +1,11 @@
 /**
  * API Service for Linux Process Resource Monitoring System (Part 3)
- * Connects the React frontend to the Java REST API at http://localhost:8080/api
+ * Connects the React frontend to the Java REST API at https://lpms-backend-ifa6.onrender.com/api
  */
 
 import { ProcessItem, SystemResourceUsage, AlertItem, ActivityItem } from '../types/process.ts';
 
-export const API_BASE_URL = 'http://localhost:8080/api';
+export const API_BASE_URL = 'https://lpms-backend-ifa6.onrender.com/api';
 
 export interface HealthStatus {
   online: boolean;
